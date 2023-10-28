@@ -1,0 +1,152 @@
+body {
+    font-family: 'DM Sans';font-size: 22px;
+    background-color: #000000;
+}
+
+.container{
+    display: flex;
+    
+    position: absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+  
+  }
+  
+.blank{
+    width: 100%;
+    height: 90px;
+    background-color: #212121;
+  }
+.arrow{
+    justify-content: center;
+    margin-left: 50px;
+    padding-top: 10px;
+    background-color: #212121;
+}
+  
+  .container1 {
+      /* border: 5px solid #3dd813; */
+      background-color: #000000;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+  
+  }
+/* ***********cont 2********** */
+  .container2 {
+      display: flex;
+      flex-direction: column;
+    width: 80%;
+    background-color: #141414;
+  }
+
+.goodmorning{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #212121;
+
+}
+.gdchild{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px ;
+    grid-template-rows: repeat(2, 90px);
+    column-gap: 20px;
+    row-gap: 30px;
+    justify-content: space-around;
+    color: aliceblue;
+    background-color: #141414;
+}
+.ele1{
+    /* border: 3px solid #000000; */
+    border-radius: 10px;
+    display: flex;
+    
+}
+.ele2{
+    /* border: 3px solid #159d47; */
+    border-radius: 10px;
+    display: flex;
+}
+.ele3{
+    /* border: 3px solid #c51a1a; */
+    border-radius: 10px;
+    display: flex;
+}
+.ele4{
+    /* border: 3px solid #6f14d0; */
+    border-radius: 10px;
+    display: flex;
+}
+.ele5{
+    /* border: 3px solid #d0c312; */
+    border-radius: 10px;
+    display: flex;
+}
+.ele1img,.ele2img, .ele3img, .ele4img, .ele5img{
+    border-radius: 10px 0px 0px 10px;
+    
+}
+.ele1-1{
+    background-color: #303030;
+    flex-grow: 1;
+    border-radius: 0px 10px 10px 0px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 18px;
+}
+
+/* ***************conatiner 1*************** */
+.c1spotifylogo{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.c1{
+    display: flex;
+    justify-content: space-around;
+}
+.c1ch1{
+    display: flex;
+    flex-direction: column;
+}
+.c1text{
+    font-size: 25px;
+    color: white;
+    text-align: left;
+}
+.c1random{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.c1randomele{
+    padding-bottom: 10px;
+}
+
+/* ***************conatiner 2*************** */
+.show{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 15px;
+}
+.shows{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #303030;
+    width: 200px;
+    height: 200px;
+    
+
+}
+.shows img{
+    border-radius: 10px;
+}
