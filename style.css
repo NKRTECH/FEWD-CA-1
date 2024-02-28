@@ -4,8 +4,8 @@ body {
 }
 
 .container{
-    display: flex;
-    
+  display: flex;
+  flex-wrap: wrap;
     position: absolute;
     top:0px;
     right:0px;
@@ -149,4 +149,22 @@ body {
 }
 .shows img{
     border-radius: 10px;
+}
+
+/*********media queries added***********/
+
+@media only screen and (min-width: 600px) {
+  .container {
+    justify-content: space-between;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .container1 {
+    max-width: 25%; /* Adjust as needed */
+  }
+
+  .container2 {
+    max-width: 75%; /* Adjust as needed */
+  }
 }
